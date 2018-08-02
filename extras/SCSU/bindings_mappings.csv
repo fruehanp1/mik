@@ -1,0 +1,19 @@
+Title,<titleInfo><title>%value%</title></titleInfo>
+Subject,"<subject authority=""lcsh""><topic>%value%</topic></subject>"
+Description,<physicalDescription><note>%value%</note></physicalDescription>
+Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">creator</roleTerm></role></name>"
+Publisher,<originInfo><publisher>%value%</publisher></originInfo>
+Contributor,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
+Date,"<originInfo><dateIssued encoding=""w3cdtf"" keyDate=""yes"">%value%</dateIssued></originInfo>"
+Type,"<typeOfResource>""still image""</typeOfResource>"
+Identifier,"<classification authority=""lcc"">%value%</classification>"
+Language,"<language><languageTerm type=""text"">%value%</languageTerm></language>"
+Rights,"<accessCondition type=""use and reproduction"" displayLabel=""Standardized rights statement"" xlink:href=""http://rightsstatements.org/vocab/NoC-US/1.0/"">NO COPYRIGHT - UNITED STATES</accessCondition>"
+Source,"<relatedItem type=""original""><location><physicalLocation>%value%</physicalLocation></location></relatedItem>"
+Library Catalog Record,<relatedItem><location><url>%value%</url></location></relatedItem>
+Format extent,<physicalDescription><extent>%value%</extent></physicalDescription>
+Binding Terms,"<note type=""bindingInfo"">%value%</note>"
+Provenance,"<note type=""provenance"">%value%</note>"
+Bib. Resource,"<relatedItem type=""isReferencedBy"">%value%</relatedItem>"
+null0,<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>
+# dmrecord,"<identifier type=""CONTENTdm"">%value%</identifier>"

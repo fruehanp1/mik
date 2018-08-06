@@ -3,7 +3,7 @@ Subject,"<subject authority=""lcsh""><topic>%value%</topic></subject>"
 Description,<physicalDescription><note>%value%</note></physicalDescription>
 Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">creator</roleTerm></role></name>"
 Publisher,<originInfo><publisher>%value%</publisher></originInfo>
-Contributor,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
+Contributors,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
 Date,"<originInfo><dateIssued encoding=""w3cdtf"" keyDate=""yes"">%value%</dateIssued></originInfo>"
 Type,"<typeOfResource>""still image""</typeOfResource>"
 Identifier,"<classification authority=""lcc"">%value%</classification>"
@@ -16,4 +16,5 @@ Binding Terms,"<note type=""bindingInfo"">%value%</note>"
 Provenance,"<note type=""provenance"">%value%</note>"
 Bib. Resource,"<relatedItem type=""isReferencedBy"">%value%</relatedItem>"
 null0,<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>
-# dmrecord,"<identifier type=""CONTENTdm"">%value%</identifier>"
+null1,"<note type=""ownership"">Southern Connecticut State University</note>"
+CONTENTdm number,"<identifier type=""CONTENTdm"">""DeStefano-""%value%</identifier>"

@@ -33,16 +33,26 @@ $error_log = new Logger('postwritehooks/apply_xslt.php');
 $error_handler = new StreamHandler($path_to_error_log, Logger::WARNING);
 $error_log->pushHandler($error_handler);
 
-$path_to_mods = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key . '.xml';
+$path_to_mods = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key . DIRECTORY_SEPARATOR . $record_key . '.xml';
 // $path_to_mods = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . 'MODS.xml';
 copy($path_to_mods, $mods_backup . DIRECTORY_SEPARATOR . $record_key . ".xml");
 $info_log->addInfo("working on file $path_to_mods");
 
 $xslts = $config['XSLT']['stylesheets'];
-$xslt_outpath = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key . '.xml';
+$xslt_outpath = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key . DIRECTORY_SEPARATOR . $record_key . '.xml';
 
 transform($path_to_mods, $xslt_outpath, $xslts, $info_log, $error_log);
 
+foreach ($children_record_keys as $child_pointer) {
+  $path_to_child = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key . DIRECTORY_SEPARATOR . $child_pointer . '.xml';
+  // $path_to_mods = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . 'MODS.xml';
+  copy($path_to_mods, $mods_backup . DIRECTORY_SEPARATOR . $child_pointer . ".xml");
+  $info_log->addInfo("working on file $path_to_mods");
+  $xslt_outpath = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $record_key. DIRECTORY_SEPARATOR . $child_pointer . '.xml';
+
+transform($path_to_child, $xslt_outpath, $xslts, $info_log, $error_log);
+
+}
 
 function transform($path_to_mods, $xslt_outpath, $xslts, $info_log, $error_log){
 

@@ -5,12 +5,12 @@ Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authori
 Publisher,<originInfo><publisher>%value%</publisher></originInfo>
 Contributors,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
 Date,"<originInfo><dateIssued encoding=""w3cdtf"" keyDate=""yes"">%value%</dateIssued></originInfo>"
-Type,"<typeOfResource>""still image""</typeOfResource>"
-Identifier,"<classification authority=""lcc"">%value%</classification>"
+Type,"<typeOfResource>still image</typeOfResource>"
+#Identifier,"<classification authority=""lcc"">%value%</classification>"
 Language,"<language><languageTerm type=""text"">%value%</languageTerm></language>"
 Rights,"<accessCondition type=""use and reproduction"" displayLabel=""Standardized rights statement"" xlink:href=""http://rightsstatements.org/vocab/NoC-US/1.0/"">NO COPYRIGHT - UNITED STATES</accessCondition>"
-Source,"<relatedItem type=""original""><location><physicalLocation>%value%</physicalLocation></location></relatedItem>"
-Library Catalog Record,<relatedItem><location><url>%value%</url></location></relatedItem>
+#Source,"<relatedItem type=""original""><location><physicalLocation>%value%</physicalLocation></location></relatedItem>"
+#Library Catalog Record,<relatedItem type=""original""><location><url>%value%</url></location></relatedItem>
 Format extent,<physicalDescription><extent>%value%</extent></physicalDescription>
 Binding Terms,"<note type=""bindingInfo"">%value%</note>"
 Provenance,"<note type=""provenance"">%value%</note>"

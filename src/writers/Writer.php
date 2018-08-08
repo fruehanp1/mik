@@ -148,7 +148,7 @@ abstract class Writer
      * @param string $path
      *   The absolute path to write the metadata file to.
      */
-    abstract public function writeMetadataFile($metadata, $path);
+    abstract public function writeMetadataFile($metadata, $path, $record_key);
 
      /**
      * Write folders and files.

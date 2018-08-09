@@ -195,7 +195,7 @@ class CdmCompound extends Writer
         $doc->formatOutput = true;
         $metadata = $doc->saveXML();
 
-        $filename = $record_key . '.xml';
+        $filename = 'MODS.xml';
         if ($path !='') {
             $filecreationStatus = file_put_contents($path . DIRECTORY_SEPARATOR . $filename, $metadata);
             if ($filecreationStatus === false) {

@@ -17,4 +17,4 @@ Provenance,"<note type=""provenance"">%value%</note>"
 Bib. Resource,"<relatedItem type=""isReferencedBy"">%value%</relatedItem>"
 null0,<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>
 null1,"<note type=""ownership"">Southern Connecticut State University</note>"
-CONTENTdm number,"<identifier type=""CONTENTdm"">""DeStefano-""%value%</identifier>"
+CONTENTdm number,"<identifier type=""CONTENTdm"">""Binding-""%value%</identifier>"

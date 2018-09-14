@@ -1,0 +1,14 @@
+Title,<titleInfo><title>%value%</title></titleInfo>
+Subject,<subject authority="lcsh"><topic>%value%</topic></subject>
+Description,<physicalDescription><note>%value%</note></physicalDescription>
+Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">creator</roleTerm></role></name>"
+Publisher,<originInfo><publisher>%value%</publisher></originInfo>
+Contributor,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
+Date,"<originInfo><dateIssued encoding=""w3cdtf"" keyDate=""yes"">%value%</dateIssued></originInfo>"
+Type,<typeOfResource>%value%</typeOfResource>
+Identifier,"<identifier type='local'>%value%</identifier>"
+Language,"<language><languageTerm type=""text"">%value%</languageTerm></language>"
+Rights,"<accessCondition type=""use and reproduction"">%value%</accessCondition>"
+Source,"<relatedItem type=""original""><location><physicalLocation>%value%</physicalLocation></location></relatedItem>"
+issn,<identifier type="issn">%value%</identifier>
+dmrecord,<identifier type="CONTENTdm">%value%</identifier>

@@ -1,0 +1,7 @@
+<relatedItem type="original">
+  <location>
+    <physicalLocation>{{ source }}</physicalLocation>
+    <url>{{ librar }}</url>
+  </location>
+  <classification authority="lcc">{{ identi }}</classification>
+</relatedItem>

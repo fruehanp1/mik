@@ -11,7 +11,7 @@ Rights,"<accessCondition type=""use and reproduction"" displayLabel=""Standardiz
 Identifier,"<relatedItem type=""original""><location><physicalLocation>""SCSU Buley Library--Mayor John DeStefano Jr. Papers""</physicalLocation><shelfLocator>%value%</shelfLocator></location></relatedItem>"
 Title Alternative,"<titleInfo><title type=""alternative"">%value%</title></titleInfo>"
 CONTENTdm number,"<identifier type=""CONTENTdm"">""DeStefano-""%value%</identifier>"
-City Department,"<name type=""corporate"" authority=""naf""><namePart>New Haven (Conn.)</namepart><namepart>%value%</namePart></name>"
+City Department,"<name type=""corporate"" authority=""naf""><namePart>New Haven (Conn.)</namePart><namePart>%value%</namePart></name>"
 Coverage,"<subject authority=""lcsh""><topic>%value%</topic></subject>"
 Format-Extent,<physicalDescription><extent>%value%</extent></physicalDescription>
 null0,<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>

@@ -1,0 +1,7 @@
+How to mount SMB from Command line
+
+sudo mkdir /Volumes/ContentDM
+sudo mount -t smbfs //fruehanp1@libnas01.scsu.southernct.edu/ContentDM /Volumes/ContentDM
+
+sudo unmount /Volumes/CONTENTdm
+sudo rm /Volumes/ContentDM

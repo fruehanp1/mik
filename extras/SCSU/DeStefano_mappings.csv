@@ -9,7 +9,7 @@ Type,<typeOfResource>text</typeOfResource>
 Language,"<language><languageTerm type=""text"">%value%</languageTerm></language>"
 Rights,"<accessCondition type=""use and reproduction"" displayLabel=""Standardized rights statement"" xlink:href=""http://rightsstatements.org/vocab/NoC-US/1.0/"">NO COPYRIGHT - UNITED STATES</accessCondition>"
 Identifier,"<relatedItem type=""original""><location><physicalLocation>""SCSU Buley Library--Mayor John DeStefano Jr. Papers""</physicalLocation><shelfLocator>%value%</shelfLocator></location></relatedItem>"
-Title Alternative,"<titleInfo><title type=""alternative"">%value%</title></titleInfo>"
+Title Alternative,"<titleInfo type=""alternative""><title>%value%</title></titleInfo>"
 CONTENTdm number,"<identifier type=""CONTENTdm"">""DeStefano-""%value%</identifier>"
 City Department,"<name type=""corporate"" authority=""naf""><namePart>New Haven (Conn.)</namePart><namePart>%value%</namePart></name>"
 Coverage,"<subject authority=""lcsh""><topic>%value%</topic></subject>"

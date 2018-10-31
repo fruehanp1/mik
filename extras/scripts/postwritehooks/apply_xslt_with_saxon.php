@@ -3,7 +3,7 @@
 /**
   * Post-Write script for MIK that applies XSLTs defined in .ini file
   * to the mods output of MIK. Before transformation of original mods
-  * are saved in a subdirecory of 'output_directory' named 'original_mods' 
+  * are saved in a subdirecory of 'output_directory' named 'original_mods'
  */
 
 require 'vendor/autoload.php';
@@ -42,6 +42,7 @@ $xslt_outpath = $config['WRITER']['output_directory'] . DIRECTORY_SEPARATOR . $r
 
 transform($path_to_mods, $xslt_outpath, $xslts, $info_log, $error_log);
 
+$info_log->addInfo("postwritehook COMPLETE");
 
 function transform($path_to_mods, $xslt_outpath, $xslts, $info_log, $error_log){
 

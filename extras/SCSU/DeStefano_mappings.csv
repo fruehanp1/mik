@@ -2,7 +2,7 @@ Title,<titleInfo><title>%value%</title></titleInfo>
 "Title Alternative","<titleInfo type=""alternative""><title>%value%</title></titleInfo>"
 Subject,"<subject><topic>%value%</topic></subject>"
 Coverage,"<subject><topic>%value%</topic></subject>"
-"City Department","<subject><name type=""corporate""><namePart>New Haven (Conn.) -- %value%</namePart></name>"
+"City Department","<subject><name type=""corporate""><namePart>New Haven (Conn.) -- %value%</namePart></name></subject>"
 Description,<abstract>%value%</abstract>
 Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">creator</roleTerm></role></name>"
 Contributors,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"

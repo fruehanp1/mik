@@ -1,18 +1,19 @@
 Title,<titleInfo><title>%value%</title></titleInfo>
-Subject,"<subject authority=""lcsh""><topic>%value%</topic></subject>"
+"Title Alternative","<titleInfo type=""alternative""><title>%value%</title></titleInfo>"
+Subject,"<subject><topic>%value%</topic></subject>"
+Coverage,"<subject><topic>%value%</topic></subject>"
+"City Department","<subject><name type=""corporate""><namePart>New Haven (Conn.) -- %value%</namePart></name>"
 Description,<abstract>%value%</abstract>
 Creator,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">creator</roleTerm></role></name>"
-Publisher,<originInfo><publisher>%value%</publisher></originInfo>
 Contributors,"<name><namePart>%value%</namePart><role><roleTerm type=""text"" authority=""marcrelator"">contributor</roleTerm></role></name>"
 Date,"<originInfo><dateIssued encoding=""w3cdtf"" keyDate=""yes"">%value%</dateIssued></originInfo>"
 Type,<typeOfResource>text</typeOfResource>
 Language,"<language><languageTerm type=""text"">%value%</languageTerm></language>"
 Rights,"<accessCondition type=""use and reproduction"" displayLabel=""Standardized rights statement"" xlink:href=""http://rightsstatements.org/vocab/NoC-US/1.0/"">NO COPYRIGHT - UNITED STATES</accessCondition>"
-Identifier,"<relatedItem type=""original""><location><physicalLocation>""SCSU Buley Library--Mayor John DeStefano Jr. Papers""</physicalLocation><shelfLocator>%value%</shelfLocator></location></relatedItem>"
-Title Alternative,"<titleInfo type=""alternative""><title>%value%</title></titleInfo>"
-CONTENTdm number,"<identifier type=""CONTENTdm"">""DeStefano-""%value%</identifier>"
-City Department,"<name type=""corporate"" authority=""naf""><namePart>New Haven (Conn.)</namePart><namePart>%value%</namePart></name>"
-Coverage,"<subject authority=""lcsh""><topic>%value%</topic></subject>"
-Format-Extent,<physicalDescription><extent>%value%</extent></physicalDescription>
-null0,<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>
+Identifier,"<identifier type=""local"">%value%</identifier>"
+Publisher,<originInfo><publisher>%value%</publisher></originInfo>
+Format-Extent,<physicalDescription><note>%value%</note></physicalDescription>
+null0,"<physicalDescription><digitalOrigin>reformatted digital</digitalOrigin></physicalDescription>"
 null1,"<note type=""ownership"">Southern Connecticut State University</note>"
+null2,"<note type=""source note"">SCSU Buley Library--Mayor John DeStefano Jr. Papers""</note>"
+null3,"<mods:genre>municipal government records</mods:genre>"
